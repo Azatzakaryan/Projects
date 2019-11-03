@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#obshi{
+  height: 100vh;
+  background-color: #eee;
+  display: inline-block;
+  vertical-align: top;
+  border-right: 2px solid #444;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  width: 325px;
+  height: 50px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.4s;
+  display: block;
+  padding: 10px;
+  border-bottom: 2px solid #444;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.txt{
+  display: inline-block;
+  width: 140px;
+  border-bottom: 1px solid  #444;
+  color:  #444;
+  padding: 0 10px;
+  font-weight: bold;
+}
+.last{
+  border-bottom: none;
+}
+.mec{
+  width: 159px;
+}
+.mece{
+  width: 161px;
+  color: #444;
+  font-weight: bold;
+}
+
+#container{
+  margin: 20px;
+  display: inline-block;
+  min-width: 600px;
+  min-height: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#contant{
+  margin: 20px;
+  display: inline-block;
+  border: 2px solid black;
+  min-width: 560px;
+  min-height: 260px;
+  position: relative;
+  background-color: white;
+}
+
+#box{
+  display: inline-block;
+  border: 2px solid black;
+  max-width: 556px;
+  min-width: 77px;
+  max-height: 256px;
+  min-height: 77px;
+  position: absolute;
+}
+input:focus{
+  background-color: #eee;
+}

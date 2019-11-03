@@ -1,0 +1,71 @@
+div {
+  width: 100px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+}
+.a1{
+  left: 0;
+  top: 20px;
+}
+.a2{
+  left: 100px;
+  top: 40px;
+}
+.a3{
+  left: 200px;
+  top: 60px;
+}
+.a4{
+  left: 300px;
+  top: 80px;
+}
+.a5{
+  left: 400px;
+  top: 100px;
+}
+.a6{
+  left: 500px;
+  top: 120px;
+}
+.a7{
+  left: 600px;
+  top: 140px;
+}
+.a8{
+  left: 700px;
+  top: 160px;
+}
+.a9{
+  left: 800px;
+  top: 180px;
+}
+.a10{
+  left: 900px;
+  top: 200px;
+}
+.sharik{
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  animation-name: klor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes klor {
+  10% {background-color:black; left:50px; top:0px;}
+  20% {background-color:blue; left:150px; top:35px;}
+  30% {background-color:orange; left:250px; top:75px;}
+  40% {background-color:red; left:350px; top:115px;}
+  50% {background-color:grey; left:450px; top:155px;}
+  60% {background-color:yellow; left:550px; top:195px;}
+  70% {background-color:pink; left:650px; top:235px;}
+  80% {background-color:green; left:750px; top:275px;}
+  90% {background-color:lightblue; left:850px; top:315px;}
+  100% {background-color:lightgreen; left:950px; top:355px;}
+}

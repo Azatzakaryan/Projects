@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Options
+	</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<div id="obshi">	
+	<button class="accordion" id="ccc">CONTAINER</button>
+	<div class="panel">
+  		<ul>
+			<li> <div class="txt">Background-color</div> <input id="con_bg" class="mec" type="color" name=""> </li>
+			<li> <div class="txt">Border Type</div> 
+			       	 	<select class="mece" id="bor_type">
+			       			<option>dotted</option>
+			       			<option>dashed</option>
+			       			<option selected>solid</option>
+			       			<option>double</option>
+			       			<option>groove</option>
+			       			<option>ridge</option>
+			       			<option>inset</option>
+			       			<option>outset</option>
+			       			<option>none</option>
+			       			<option>hidden</option>
+			            </select>
+			</li>
+			<li>  <div class="txt">Border Color </div> <input id="bor_col" class="mec" type="color" name=""> </li>
+	        <li>  <div class="txt">Border-px</div>        <input id="bor_px" type="number" name=""> </li>
+		    <li>  <div class="txt">Padding</div>       <input id="pad_px" type="number" name=""> </li>
+	        <li>  <div class="txt">Width</div>         <input id="whi_px" type="number" name="" placeholder="min-600px"> </li>
+	        <li>  <div class="txt">Height</div>        <input id="hei_px" type="number" name="" placeholder="min-300px"> </li>
+	        <li>  <div class="txt">Border-radius</div> <input id="bor_rad" type="number" name=""> </li>
+		    <li>  <div class="txt last">Has shadow </div>   <input id="shadow" onclick="mf9()" type="checkbox" name=""> </li>
+		</ul>
+</div>
+
+<button class="accordion">CONTENT</button>
+<div class="panel">
+	<ul>
+ 		    <li> <div class="txt">Background-color</div> <input id="cont_bg" class="mec" type="color" name=""></li>
+			<li> <div class="txt">Border Type</div> 
+			       	 	<select class="mece"  id="bord_type">
+			       			<option>dotted</option>
+			       			<option>dashed</option>
+			       			<option selected>solid</option>
+			       			<option>double</option>
+			       			<option>groove</option>
+			       			<option>ridge</option>
+			       			<option>inset</option>
+			       			<option>outset</option>
+			       			<option>none</option>
+			       			<option>hidden</option>
+			            </select>
+			</li>
+			<li>  <div class="txt">Border Color </div>  <input id="bord_col" class="mec" type="color" name=""></li>
+	        <li>  <div class="txt last">Border-px</div>    <input id="bord_px" type="number" name=""></li>
+	</ul>     
+</div>
+
+<button class="accordion">BOX</button>
+<div class="panel">
+	<ul>
+	 		<li> <div class="txt">Background-color</div> <input id="box_bg" class="mec" type="color" name=""></li>
+			<li> <div class="txt">Border Type</div> 
+			       	 	<select class="mece" id="box_type">
+			       			<option>dotted</option>
+			       			<option>dashed</option>
+			       			<option selected>solid</option>
+			       			<option>double</option>
+			       			<option>groove</option>
+			       			<option>ridge</option>
+			       			<option>inset</option>
+			       			<option>outset</option>
+			       			<option>none</option>
+			       			<option>hidden</option>
+			            </select>
+			</li>
+			<li>  <div class="txt">Border Color </div> <input id="box_col" class="mec" type="color" name=""></li>
+	        <li>  <div class="txt">Border-px</div>        <input id="box_px" type="number" value="2" name=""></li>
+	        <li>  <div class="txt">Width</div>         <input id="box_wi" value='77'  type="number" name="" placeholder="min-77px / max-556px"></li>
+	        <li>  <div class="txt">Height</div>   <input id="box_he" value='77' type="number" name="" placeholder="min-77px / max-256px"></li>
+	        <li>
+	        	<div class="txt last">Margin px</div> <input type="number" id='MovePoint' value ='20' name="">
+	        </li>
+	</ul>        
+</div>
+</div>
+<div id="container">
+	<div id="contant">
+		<div id="box">
+			
+		</div>
+		
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
